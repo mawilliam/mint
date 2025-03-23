@@ -269,7 +269,7 @@ dev = [
     { name = "pre-commit" },
     { name = "pymdown-extensions" },
     { name = "pytest" },
-    { name = "ruff", specifier = ">=0.9.8" },
+    { name = "ruff" },
 ]
 
 [[package]]
