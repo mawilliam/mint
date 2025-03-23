@@ -1,0 +1,33 @@
+[build-system]
+requires = ["uv==0.6.2"]
+build-backend = "uv"
+
+[project]
+name = "mint"
+requires-python = "==3.13.*"
+version = "0.1.0"
+authors = [
+  {name = "Mark Williams"}
+]
+maintainers = [
+  {name = "Mark Williams"},
+]
+description = "Application to track finances and set budgets."
+readme = "README.md"
+license = {file = "LICENSE"}
+dependencies = []
+
+[dependency-groups]
+dev = [
+  "coverage",
+  "mkdocstrings[python]",
+  "mkdocs-material",
+  "mypy",
+  "pre-commit",
+  "pymdown-extensions",
+  "pytest",
+  "ruff",
+]
+
+[tool.uv]
+python-downloads = "manual"
